@@ -12,7 +12,13 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+vim.opt.scrolloff = 10
+
+vim.opt.updatetime = 50
+
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.cmd.colorscheme "catppuccin"
