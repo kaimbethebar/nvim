@@ -20,5 +20,3 @@ vim.opt.scrolloff = 10
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
-
-vim.cmd.colorscheme "catppuccin"
